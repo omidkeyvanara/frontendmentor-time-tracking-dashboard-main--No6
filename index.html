@@ -5,28 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Rubik:wght@300;400;500&display=swap" rel="stylesheet"> 
   <title>Frontend Mentor | Time tracking dashboard</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
+  <div class="main">
+    <div class="profile">
+      <div class="name"><img class="person" src="./images/image-jeremy.png" alt=""><p class="report">Report for</p><h1 class="jeremy">Jeremy Robson</h1></div>
+      <div class="calender">
+        <a class="time" href="#">Daily</a>
+        <a class="time" href="#">Weekly</a>
+        <a class="time" href="#">Monthly</a>
+      </div>
+    </div>
+    <div class="component">
+      <div class="logo-box"></div>
+      <a href="#"><div class="records">
+        <div class="text-box">
+          <p class="title">Work</p>
+          <h1 class="timeout">5hrs</h1>
+          <p class="last-week">Last Week - 32hrs </p>
+        </div>
+      </div>
+      <div class="dots"><img src="./images/icon-ellipsis.svg" alt=""></div></a>
+    </div>
+  </div>
+  
+  
 
-  Report for
-  Jeremy Robson
 
-  Daily
-  Weekly
-  Monthly
 
-  Work
-  5hrs <!-- daily -->
+  
+   <!-- daily -->
   Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
+   <!-- weekly -->
   Previous - 36hrs <!-- weekly -->
   103hrs <!-- monthly -->
   Previous - 128hrs <!-- monthly -->
@@ -72,9 +89,7 @@
   Previous - 11hrs <!-- monthly -->
 
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 </html>
+
