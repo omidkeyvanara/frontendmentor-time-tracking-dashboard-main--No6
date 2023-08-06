@@ -1,70 +1,90 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-html{
-    font-size: 62.5%;
-    font-family: 'Rubik', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 144rem;
-    /* background-color: hsl(226, 43%, 10%); */
+html {
+  font-size: 62.5%;
+  font-family: "Rubik", sans-serif;
 }
 
-
+body {
+    
+  width: 144rem;
+  /* background-color: hsl(226, 43%, 10%); */
+}
 
 /* ************************* PROFILE  ************************* */
 
-.profile{
-    width:26rem ;
-    height: 52rem;
-    background-color:hsl(235, 46%, 20%);
-    border-radius: 20px;
-    color: #fff;
+.profile {
+  width: 26rem;
+  height: 52rem;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 20px;
+  color: #fff;
 }
 
-.name{
-    /* width:26rem ; */
-    border-radius: 20px;
-    height: 35.5rem;
-    background-color: hsl(246, 80%, 60%);
-    
+.name {
+  /* width:26rem ; */
+  border-radius: 20px;
+  height: 35.5rem;
+  background-color: hsl(246, 80%, 60%);
 }
 
-.person{
-    width: 8.5rem;
-    border: 2px solid #fff ;
-    border-radius: 500%;
+.person {
+  width: 8.5rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
 }
 
-.calender{
-    height: 16.5rem;
-    display: flex;
-    flex-direction: column;
+.calender {
+  height: 16.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.time{
-    text-decoration: none;
-
+.time {
+  text-decoration: none;
 }
 
+/* ************************* COMPONENT  ************************* */
 
+.component {
+  position: relative;
+  width: 25.5rem;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 20px;
+}
 
+.logo-box {
+  position: relative;
+  border-radius: 20px 20px 0 0;
+  height: 4.5rem;
+  background-color: hsl(15, 100%, 70%);
+  z-index: 2;
+}
 
+.logo {
+  position: absolute;
+  width: 7rem;
+  z-index: 0;
+  top: -20px;
+  left: 50px;
+}
 
+.records {
+  /* border-radius: 20px; */ 
+   position: relative;
+}
 
+.title {
+  /* border-radius: 20px; */
+  position: relative;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.text-box {
+  height: 20rem;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+}
