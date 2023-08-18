@@ -10,7 +10,6 @@ html {
 }
 
 body {
-    
   width: 144rem;
   /* background-color: hsl(226, 43%, 10%); */
 }
@@ -51,40 +50,73 @@ body {
 /* ************************* COMPONENT  ************************* */
 
 .component {
-  position: relative;
   width: 25.5rem;
-  background-color: hsl(235, 46%, 20%);
   border-radius: 20px;
+  background-color: hsl(15, 100%, 70%);
 }
 
 .logo-box {
-  position: relative;
-  border-radius: 20px 20px 0 0;
+  overflow: hidden;
   height: 4.5rem;
-  background-color: hsl(15, 100%, 70%);
-  z-index: 2;
 }
 
 .logo {
-  position: absolute;
-  width: 7rem;
-  z-index: 0;
-  top: -20px;
-  left: 50px;
+  position: relative;
+  width: 7.5rem;
+  top: -8px;
+  left: 170px;
 }
+
 
 .records {
-  /* border-radius: 20px; */ 
-   position: relative;
+  background-color: hsl(235, 46%, 20%);
+  display: flex;
+  border-radius: 20px;
+  height: 20rem;
 }
 
-.title {
-  /* border-radius: 20px; */
-  position: relative;
+.link-contain{
+  text-decoration: none;
 }
+
 
 .text-box {
-  height: 20rem;
-  position: relative;
-  border-radius: 20px 20px 0 0;
 }
+.title{
+  
+}
+.timeout{
+
+}
+.last-week{
+
+}
+
+
+/* *********************************************************************** */
+
+/* .holder {
+  position: relative;
+  width: 45rem;
+  height: 30rem;
+  background-color: beige;
+}
+
+.s {
+  width: 20rem;
+  height: 15rem;
+  border: 2px solid black;
+}
+
+.s1 {
+  position: absolute;
+  bottom: 30px;
+  background-color: aqua;
+  height: 15rem;
+  z-index: 3;
+}
+.s2 {
+  position: absolute;
+  z-index: 4;
+  background-color: rgb(9, 122, 122);
+} */
