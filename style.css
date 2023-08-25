@@ -37,7 +37,7 @@ body {
   border-radius: 50%;
 }
 
-.calender {
+.calendar {
   height: 16.5rem;
   display: flex;
   flex-direction: column;
@@ -64,9 +64,20 @@ body {
   position: relative;
   width: 7.5rem;
   top: -8px;
-  left: 170px;
+  left: 160px;
 }
 
+.link-contain:link,
+.link-contain:visited {
+  text-decoration: none;
+  background-color: hsl(235, 46%, 20%);
+  transition: all 0.3ms;
+}
+
+.link-contain:hover,
+.link-contain:active {
+  background-color: hsl(235, 45%, 61%);
+}
 
 .records {
   background-color: hsl(235, 46%, 20%);
@@ -75,23 +86,29 @@ body {
   height: 20rem;
 }
 
-.link-contain{
-  text-decoration: none;
-}
-
-
 .text-box {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0 3.5rem 3rem;
+  color: #fff;
+  line-height: 0.8;
 }
-.title{
-  
+.title {
+  font-size: 2rem;
 }
-.timeout{
+.timeout {
+  margin: 4rem 0 2.5rem 0;
+  font-size: 5.5rem;
+  font-weight: 300;
+}
+.last-week {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
 
+.dots {
+  margin: 3.5rem 3rem;
 }
-.last-week{
-
-}
-
 
 /* *********************************************************************** */
 
